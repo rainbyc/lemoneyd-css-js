@@ -34,5 +34,20 @@ nav {
 nav h1 a {
     text-decoration: none;
     color: #e9ff74;
+    font-size: 2rem;
     font-family: 'Libre Baskerville', serif;
+}
+
+nav ul {
+    display: flex;
+    width: 50%;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.list-item a {
+    text-decoration: none;
+    font-size: 1.7rem;
+    color: white;
+    font-family: 'Kanit', sans-serif;
 }
