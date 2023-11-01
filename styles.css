@@ -120,15 +120,124 @@ main {
     margin-bottom: 20px;
 }
 
-#savings-wordings h2 {
-    font-size: 2rem;
+#savings-wordings h3 {
+    font-size: 2.1rem;
     text-align: center;
     font-family: 'Poppins', sans-serif;
     margin-bottom: 5px;
 }
 
 #savings-wordings p {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+
+#banks-list {
+    background-color: #e9ff74;
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: 1fr 2fr 1fr 1fr;
+    text-align: center;
+    border-radius: 30px;
+}
+
+#banks-list > div {
+    border-bottom: 1px solid #202122;
+
+}
+
+
+.banks-header .top {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 24px;
+}
+
+.banks-header .int {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.banks-header p {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.banks-logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;  
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.banks-logo img {
+    width: 15%;
+    height: auto;
+}
+
+
+.banks-savings {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 1.3rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.banks-interest {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    font-family: 'Poppins', sans-serif;  
+}
+
+.more-details {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    font-size: 1.3rem;
+}
+
+.more-details p {
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+
+.fa-chevron-up:hover,
+.fa-chevron-down:hover {
+    cursor: pointer;
+}
+
+.extra-details {
+    display: none;
+    grid-column: 1 / span 4; /* Cover all four columns */
+    position: relative;
+    width: 100%;
+}
+
+.extra-details.visible {
+    display: flex;
+    min-height: 100px;
+}
+
+.extra-details p {
+    text-align: left;
     font-family: 'Poppins', sans-serif;
 }
