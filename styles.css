@@ -103,7 +103,7 @@ main {
 
 
 #savings {
-    width: 94%;
+    width: 90%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -117,7 +117,7 @@ main {
     display: flex;
     flex-direction: column;
     width: 94%;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 #savings-wordings h3 {
@@ -152,42 +152,29 @@ main {
 
 }
 
-
-.banks-header .top {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    padding-left: 24px;
-}
-
-.banks-header .int {
+.banks-header {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 
-
 .banks-header p {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-family: 'Poppins', sans-serif;
-    padding-top: 10px;
-    padding-bottom: 10px;
 }
 
 .banks-logo {
     display: flex;
     align-items: center;
-    justify-content: flex-start;  
-    padding-left: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    justify-content: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
 }
 
 .banks-logo img {
-    width: 15%;
+    width: 25%;
     height: auto;
 }
 
@@ -195,8 +182,8 @@ main {
 .banks-savings {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
-    font-size: 1.3rem;
+    justify-content: center;
+    font-size: 1.2rem;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -204,20 +191,18 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.3rem;
     font-family: 'Poppins', sans-serif;  
 }
 
-.more-details {
-    display: flex;
-    align-items: center;
-    justify-content: center; 
-    font-size: 1.3rem;
+.interest {
+    font-size: 1.2rem;
+    margin-right: 22px;
 }
 
-.more-details p {
-    cursor: pointer;
-    font-family: 'Poppins', sans-serif;
+.expand-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .fa-chevron-up:hover,
