@@ -213,7 +213,7 @@ main {
     margin-right: 22px;
 }
 
-.expand-button {
+.expand-button-two {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -224,19 +224,19 @@ main {
     cursor: pointer;
 }
 
-.extra-details {
+.key-features {
     display: none;
-    grid-column: 1 / span 4; /* Cover all four columns */
+    grid-column: 1 / span 5; /* Cover all four columns */
     position: relative;
     width: 100%;
 }
 
-.extra-details.visible {
+.key-features.visible {
     display: flex;
     min-height: 100px;
 }
 
-.extra-details p {
+.key-features p {
     text-align: left;
     font-family: 'Poppins', sans-serif;
 }
