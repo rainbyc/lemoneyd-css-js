@@ -135,8 +135,6 @@ main {
 
 
 
-
-
 #banks-list {
     background-color: #e9ff74;
     display: grid;
@@ -161,7 +159,7 @@ main {
 }
 
 .banks-header p {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -188,7 +186,7 @@ main {
 }
 
 .banks-logo img {
-    width: 30%;
+    width: 25%;
     height: auto;
 }
 
@@ -197,7 +195,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -205,7 +203,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-family: 'Poppins', sans-serif;  
 }
 
@@ -214,7 +212,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .interest-details {
@@ -241,7 +239,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 .fa-chevron-up:hover,
