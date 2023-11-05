@@ -54,9 +54,40 @@ nav ul {
 }
 
 
+@media only screen and (max-width: 480px) {
+    nav h1 a {
+        font-size: 1.3rem;
+    }
+    
+    .list-item a {
+        font-size: 1rem;
+    }
+}
 
 
-/* Main */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Main - home */
 
 main {
     display: flex;
@@ -103,6 +134,46 @@ main {
 }
 
 
+@media only screen and (max-width: 480px) {
+
+    #home {
+        min-height: calc(100vh - 200px);
+        margin-bottom: 115px;
+    }
+
+    #home h2 {
+      font-size: 1.6rem;
+      white-space: normal; /* Allow line breaks */
+    }
+
+    #home p {
+        font-size: .9rem;
+        white-space: normal; /* Allow line breaks */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Main - savings */
+
 #savings {
     width: 90%;
     height: auto;
@@ -135,6 +206,40 @@ main {
 }
 
 
+@media only screen and (max-width: 480px) {
+
+    #savings {
+        width: 94%;
+    }
+
+    #savings-wordings h3 {
+      font-size: 1.2rem;
+      white-space: normal; /* Allow line breaks */
+    }
+
+    #savings-wordings p {
+        font-size: .8rem;
+        white-space: normal; /* Allow line breaks */
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Main - banks-list */
 
 #banks-list {
     background-color: #e9ff74;
@@ -292,6 +397,107 @@ main {
 }
 
 
+
+@media only screen and (max-width: 480px) {
+    .banks-header p {
+      font-size: .7rem;
+      white-space: normal; /* Allow line breaks */
+      justify-content: center;
+    }
+
+    .bank-header p {
+        font-size: .6rem;
+        white-space: normal; /* Allow line breaks */
+        justify-content: center;
+      }
+
+    .banks-logo img {
+        min-width: 70%;
+        height: auto;
+    }
+
+    .banks-savings {
+        font-size: .6rem;
+        white-space: normal; /* Allow line breaks */
+    }
+
+    .banks-interest {
+        font-size: .6rem;
+        white-space: normal; /* Allow line breaks */
+    }
+
+    .expand-button {
+        font-size: .7rem;
+    }
+
+    .expand-button-2 {
+        font-size: .7rem;
+    }
+
+    .interest-details.visible {
+        display: flex;
+        padding-left: 24px;
+        padding-right: 5px;
+        padding-top: 10px;
+        padding-bottom: 18px;
+    }
+
+    .interest-details ul p {
+        font-size: .6rem;
+    }
+
+    .interest-details ul li {
+        font-size: .6rem;
+    }
+
+    .key-features ul li {
+        font-size: .6rem;
+    }
+
+    .key-features.visible {
+        display: flex;
+        padding-left: 24px;
+        padding-right: 5px;
+        padding-top: 10px;
+        padding-bottom: 18px;
+    }
+
+    .update i {
+        font-size: .6rem;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
 footer {
     display: flex;
     justify-content: center;
@@ -302,7 +508,9 @@ footer {
     background-color: #202122;
     border-radius: 30px;
     width: 94%;
-    height: 120px;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -321,3 +529,10 @@ footer {
     padding-right: 12px;
 }
 
+
+@media only screen and (max-width: 480px) {
+    #footer-content p {
+        font-size: .7rem;
+        white-space: normal; /* Allow line breaks */
+    }
+}
