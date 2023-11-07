@@ -271,12 +271,12 @@ main {
 @media only screen and (min-width: 1025px) and (max-width: 1800px) {
 
     #home h2 {
-        font-size: 2.6rem;
+        font-size: 2.7rem;
         white-space: normal; /* Allow line breaks */
     }
   
     #home p {
-        font-size: 1.4rem;
+        font-size: 1.5rem;
         white-space: normal; /* Allow line breaks */
     }
 }
@@ -451,7 +451,7 @@ main {
 /* Main - banks-list */
 
 #banks-list {
-    background-color: #e9ff74;
+    background-color: #CCEEBC;
     display: grid;
     width: 100%;
     height: auto;
@@ -1074,7 +1074,7 @@ main {
   
     .interest-details.visible {
         display: flex;
-        padding-left: 70px;
+        padding-left: 80px;
         padding-right: 5px;
         padding-top: 10px;
         padding-bottom: 18px;
@@ -1094,7 +1094,7 @@ main {
   
     .key-features.visible {
         display: flex;
-        padding-left: 70px;
+        padding-left: 80px;
         padding-right: 5px;
         padding-top: 10px;
         padding-bottom: 18px;
