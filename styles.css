@@ -43,7 +43,8 @@ nav ul {
     display: flex;
     width: 50%;
     list-style: none;
-    justify-content: space-around;
+    justify-content: center;
+    padding-left: 15%;
 }
 
 .list-item a {
@@ -54,9 +55,9 @@ nav ul {
 }
 
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 380px) {
     nav h1 a {
-        font-size: 1.3rem;
+        font-size: 1.1rem;
     }
     
     .list-item a {
@@ -64,9 +65,21 @@ nav ul {
     }
 }
 
+
+@media only screen and (min-width: 381px) and (max-width: 480px) {
+    nav h1 a {
+        font-size: 1.3rem;
+    }
+    
+    .list-item a {
+        font-size: 1.2rem;
+    }
+}
+
+
 @media only screen and (min-width: 481px) and (max-width: 500px) {
     nav h1 a {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
     
     .list-item a {
@@ -1038,13 +1051,13 @@ main {
 @media only screen and (min-width: 1025px) and (max-width: 1800px) {
 
     .banks-header p {
-        font-size: 1.3rem;
+        font-size: 1.4rem;
         white-space: normal; /* Allow line breaks */
         justify-content: center;
     }
   
     .bank-header p {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
         white-space: normal; /* Allow line breaks */
         justify-content: center;
     }
