@@ -90,7 +90,7 @@ nav ul {
 
 @media only screen and (min-width: 501px) and (max-width: 600px) {
     nav h1 a {
-        font-size: 1.6rem;
+        font-size: 1.5rem;
     }
     
     .list-item a {
@@ -101,7 +101,7 @@ nav ul {
 
 @media only screen and (min-width: 601px) and (max-width: 768px) {
     nav h1 a {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
     
     .list-item a {
@@ -111,7 +111,7 @@ nav ul {
 
 @media only screen and (min-width: 769px) and (max-width: 900px) {
     nav h1 a {
-        font-size: 1.9rem;
+        font-size: 1.7rem;
     }
     
     .list-item a {
@@ -121,7 +121,7 @@ nav ul {
 
 @media only screen and (min-width: 901px) and (max-width: 1024px) {
     nav h1 a {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
     
     .list-item a {
@@ -132,11 +132,11 @@ nav ul {
 
 @media only screen and (min-width: 1025px) and (max-width: 1800px) {
     nav h1 a {
-        font-size: 2rem;
+        font-size: 1.9rem;
     }
     
     .list-item a {
-        font-size: 1.7rem;
+        font-size: 1.8rem;
     }
 }
 
@@ -195,7 +195,9 @@ main {
 }
 
 
-@media only screen and (max-width: 480px) {
+
+
+@media only screen and (max-width: 380px) {
 
     #home {
         min-height: calc(100vh - 200px);
@@ -203,7 +205,26 @@ main {
     }
 
     #home h2 {
-      font-size: 1.6rem;
+      font-size: 1.2rem;
+      white-space: normal; /* Allow line breaks */
+    }
+
+    #home p {
+        font-size: .8rem;
+        white-space: normal; /* Allow line breaks */
+    }
+}
+
+
+@media only screen and (min-width: 381px) and (max-width: 480px) {
+
+    #home {
+        min-height: calc(100vh - 200px);
+        margin-bottom: 115px;
+    }
+
+    #home h2 {
+      font-size: 1.3rem;
       white-space: normal; /* Allow line breaks */
     }
 
@@ -217,7 +238,7 @@ main {
 @media only screen and (min-width: 481px) and (max-width: 500px) {
 
     #home h2 {
-      font-size: 2rem;
+      font-size: 1.4rem;
       white-space: normal; /* Allow line breaks */
     }
 
@@ -230,7 +251,7 @@ main {
 @media only screen and (min-width: 501px) and (max-width: 600px) {
 
     #home h2 {
-      font-size: 2.1rem;
+      font-size: 1.6rem;
       white-space: normal; /* Allow line breaks */
     }
 
@@ -243,7 +264,7 @@ main {
 @media only screen and (min-width: 601px) and (max-width: 768px) {
 
     #home h2 {
-      font-size: 2.4rem;
+      font-size: 1.8rem;
       white-space: normal; /* Allow line breaks */
     }
 
@@ -257,7 +278,21 @@ main {
 @media only screen and (min-width: 769px) and (max-width: 900px) {
 
     #home h2 {
-      font-size: 2.5rem;
+      font-size: 2rem;
+      white-space: normal; /* Allow line breaks */
+    }
+
+    #home p {
+        font-size: 1.2rem;
+        white-space: normal; /* Allow line breaks */
+    }
+}
+
+
+@media only screen and (min-width: 901px) and (max-width: 1024px) {
+
+    #home h2 {
+      font-size: 2.2rem;
       white-space: normal; /* Allow line breaks */
     }
 
@@ -267,29 +302,15 @@ main {
     }
 }
 
-
-@media only screen and (min-width: 901px) and (max-width: 1024px) {
-
-    #home h2 {
-      font-size: 2.6rem;
-      white-space: normal; /* Allow line breaks */
-    }
-
-    #home p {
-        font-size: 1.4rem;
-        white-space: normal; /* Allow line breaks */
-    }
-}
-
 @media only screen and (min-width: 1025px) and (max-width: 1800px) {
 
     #home h2 {
-        font-size: 2.7rem;
+        font-size: 2.4rem;
         white-space: normal; /* Allow line breaks */
     }
   
     #home p {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
         white-space: normal; /* Allow line breaks */
     }
 }
@@ -332,7 +353,27 @@ main {
 }
 
 
-@media only screen and (max-width: 480px) {
+
+
+@media only screen and (max-width: 380px) {
+
+    #savings {
+        width: 94%;
+    }
+
+    #savings-wordings h3 {
+      font-size: 1.1rem;
+      white-space: normal; /* Allow line breaks */
+    }
+
+    #savings-wordings p {
+        font-size: .7rem;
+        white-space: normal; /* Allow line breaks */
+    }
+}
+
+
+@media only screen and (min-width: 381px) and (max-width: 480px) {
 
     #savings {
         width: 94%;
@@ -348,6 +389,7 @@ main {
         white-space: normal; /* Allow line breaks */
     }
 }
+
 
 @media only screen and (min-width: 481px) and (max-width: 500px) {
 
@@ -407,12 +449,12 @@ main {
     }
 
     #savings-wordings h3 {
-      font-size: 1.6rem;
+      font-size: 1.5rem;
       white-space: normal; /* Allow line breaks */
     }
 
     #savings-wordings p {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         white-space: normal; /* Allow line breaks */
     }
 }
@@ -425,12 +467,12 @@ main {
     }
 
     #savings-wordings h3 {
-      font-size: 1.7rem;
+      font-size: 1.6rem;
       white-space: normal; /* Allow line breaks */
     }
 
     #savings-wordings p {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         white-space: normal; /* Allow line breaks */
     }
 }
@@ -439,7 +481,7 @@ main {
 @media only screen and (min-width: 1025px) and (max-width: 1800px) {
 
     #savings {
-        width: 94%;
+        width: 90%;
     }
 
     #savings-wordings h3 {
@@ -452,12 +494,6 @@ main {
         white-space: normal; /* Allow line breaks */
     }
 }
-
-
-
-
-
-
 
 
 
@@ -619,8 +655,79 @@ main {
 }
 
 
+@media only screen and (max-width: 380px) {
 
-@media only screen and (max-width: 480px) {
+    .banks-header p {
+      font-size: .6rem;
+      white-space: normal; /* Allow line breaks */
+      justify-content: center;
+    }
+
+    .bank-header p {
+        font-size: .5rem;
+        white-space: normal; /* Allow line breaks */
+        justify-content: center;
+    }
+
+    .banks-logo img {
+        min-width: 70%;
+        height: auto;
+    }
+
+    .banks-savings {
+        font-size: .5rem;
+        white-space: normal; /* Allow line breaks */
+    }
+
+    .banks-interest {
+        font-size: .5rem;
+        white-space: normal; /* Allow line breaks */
+    }
+
+    .expand-button {
+        font-size: .6rem;
+    }
+
+    .expand-button-2 {
+        font-size: .6rem;
+    }
+
+    .interest-details.visible {
+        display: flex;
+        padding-left: 24px;
+        padding-right: 5px;
+        padding-top: 10px;
+        padding-bottom: 18px;
+    }
+
+    .interest-details ul p {
+        font-size: .5rem;
+    }
+
+    .interest-details ul li {
+        font-size: .5rem;
+    }
+
+    .key-features ul li {
+        font-size: .5rem;
+    }
+
+    .key-features.visible {
+        display: flex;
+        padding-left: 24px;
+        padding-right: 5px;
+        padding-top: 10px;
+        padding-bottom: 18px;
+    }
+
+    .update i {
+        font-size: .5rem;
+    }
+}
+
+
+@media only screen and (min-width: 381px) and (max-width: 480px) {
+
     .banks-header p {
       font-size: .7rem;
       white-space: normal; /* Allow line breaks */
@@ -687,19 +794,20 @@ main {
     .update i {
         font-size: .6rem;
     }
+
 }
 
 
 @media only screen and (min-width: 481px) and (max-width: 500px) {
 
     .banks-header p {
-      font-size: .9rem;
+      font-size: .8rem;
       white-space: normal; /* Allow line breaks */
       justify-content: center;
     }
 
     .bank-header p {
-        font-size: .8rem;
+        font-size: .7rem;
         white-space: normal; /* Allow line breaks */
         justify-content: center;
     }
@@ -710,12 +818,12 @@ main {
     }
 
     .banks-savings {
-        font-size: .8rem;
+        font-size: .7rem;
         white-space: normal; /* Allow line breaks */
     }
 
     .banks-interest {
-        font-size: .8rem;
+        font-size: .7rem;
         white-space: normal; /* Allow line breaks */
     }
 
@@ -729,7 +837,7 @@ main {
 
     .interest-details.visible {
         display: flex;
-        padding-left: 27px;
+        padding-left: 28px;
         padding-right: 5px;
         padding-top: 10px;
         padding-bottom: 18px;
@@ -749,7 +857,7 @@ main {
 
     .key-features.visible {
         display: flex;
-        padding-left: 27px;
+        padding-left: 28px;
         padding-right: 5px;
         padding-top: 10px;
         padding-bottom: 18px;
@@ -763,6 +871,77 @@ main {
 
 
 @media only screen and (min-width: 501px) and (max-width: 600px) {
+
+    .banks-header p {
+      font-size: .9rem;
+      white-space: normal; /* Allow line breaks */
+      justify-content: center;
+    }
+
+    .bank-header p {
+        font-size: .8rem;
+        white-space: normal; /* Allow line breaks */
+        justify-content: center;
+    }
+
+    .banks-logo img {
+        min-width: 60%;
+        height: auto;
+    }
+
+    .banks-savings {
+        font-size: .8rem;
+        white-space: normal; /* Allow line breaks */
+    }
+
+    .banks-interest {
+        font-size: .8rem;
+        white-space: normal; /* Allow line breaks */
+    }
+
+    .expand-button {
+        font-size: .9rem;
+    }
+
+    .expand-button-2 {
+        font-size: .9rem;
+    }
+
+    .interest-details.visible {
+        display: flex;
+        padding-left: 32px;
+        padding-right: 5px;
+        padding-top: 10px;
+        padding-bottom: 18px;
+    }
+
+    .interest-details ul p {
+        font-size: .7em;
+    }
+
+    .interest-details ul li {
+        font-size: .7rem;
+    }
+
+    .key-features ul li {
+        font-size: .7rem;
+    }
+
+    .key-features.visible {
+        display: flex;
+        padding-left: 32px;
+        padding-right: 5px;
+        padding-top: 10px;
+        padding-bottom: 18px;
+    }
+
+    .update i {
+        font-size: .8rem;
+    }
+}
+
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
 
     .banks-header p {
       font-size: 1rem;
@@ -801,7 +980,7 @@ main {
 
     .interest-details.visible {
         display: flex;
-        padding-left: 32px;
+        padding-left: 40px;
         padding-right: 5px;
         padding-top: 10px;
         padding-bottom: 18px;
@@ -821,7 +1000,7 @@ main {
 
     .key-features.visible {
         display: flex;
-        padding-left: 32px;
+        padding-left: 40px;
         padding-right: 5px;
         padding-top: 10px;
         padding-bottom: 18px;
@@ -829,77 +1008,6 @@ main {
 
     .update i {
         font-size: .8rem;
-    }
-}
-
-
-@media only screen and (min-width: 601px) and (max-width: 768px) {
-
-    .banks-header p {
-      font-size: 1.1rem;
-      white-space: normal; /* Allow line breaks */
-      justify-content: center;
-    }
-
-    .bank-header p {
-        font-size: 1rem;
-        white-space: normal; /* Allow line breaks */
-        justify-content: center;
-    }
-
-    .banks-logo img {
-        min-width: 60%;
-        height: auto;
-    }
-
-    .banks-savings {
-        font-size: 1rem;
-        white-space: normal; /* Allow line breaks */
-    }
-
-    .banks-interest {
-        font-size: 1rem;
-        white-space: normal; /* Allow line breaks */
-    }
-
-    .expand-button {
-        font-size: 1rem;
-    }
-
-    .expand-button-2 {
-        font-size: 1rem;
-    }
-
-    .interest-details.visible {
-        display: flex;
-        padding-left: 40px;
-        padding-right: 5px;
-        padding-top: 10px;
-        padding-bottom: 18px;
-    }
-
-    .interest-details ul p {
-        font-size: .9rem;
-    }
-
-    .interest-details ul li {
-        font-size: .9rem;
-    }
-
-    .key-features ul li {
-        font-size: .9rem;
-    }
-
-    .key-features.visible {
-        display: flex;
-        padding-left: 40px;
-        padding-right: 5px;
-        padding-top: 10px;
-        padding-bottom: 18px;
-    }
-
-    .update i {
-        font-size: .9rem;
     }
 }
 
@@ -907,13 +1015,13 @@ main {
 @media only screen and (min-width: 769px) and (max-width: 900px) {
 
     .banks-header p {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         white-space: normal; /* Allow line breaks */
         justify-content: center;
     }
   
     .bank-header p {
-        font-size: 1.1rem;
+        font-size: 1rem;
         white-space: normal; /* Allow line breaks */
         justify-content: center;
     }
@@ -924,21 +1032,21 @@ main {
     }
   
     .banks-savings {
-        font-size: 1.1rem;
+        font-size: 1rem;
         white-space: normal; /* Allow line breaks */
     }
   
     .banks-interest {
-        font-size: 1.1rem;
+        font-size: 1rem;
         white-space: normal; /* Allow line breaks */
     }
   
     .expand-button {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
   
     .expand-button-2 {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
   
     .interest-details.visible {
@@ -950,15 +1058,15 @@ main {
     }
   
     .interest-details ul p {
-        font-size: 1rem;
+        font-size: .9rem;
     }
   
     .interest-details ul li {
-        font-size: 1rem;
+        font-size: .9rem;
     }
   
     .key-features ul li {
-        font-size: 1rem;
+        font-size: .9rem;
     }
   
     .key-features.visible {
@@ -970,7 +1078,7 @@ main {
     }
   
     .update i {
-        font-size: 1rem;
+        font-size: .9rem;
     }
 
 }
@@ -991,7 +1099,7 @@ main {
     }
   
     .banks-logo img {
-        min-width: 30%;
+        min-width: 40%;
         height: auto;
     }
   
@@ -1015,7 +1123,7 @@ main {
   
     .interest-details.visible {
         display: flex;
-        padding-left: 65px;
+        padding-left: 62px;
         padding-right: 5px;
         padding-top: 10px;
         padding-bottom: 18px;
@@ -1035,7 +1143,7 @@ main {
   
     .key-features.visible {
         display: flex;
-        padding-left: 65px;
+        padding-left: 62px;
         padding-right: 5px;
         padding-top: 10px;
         padding-bottom: 18px;
@@ -1051,13 +1159,13 @@ main {
 @media only screen and (min-width: 1025px) and (max-width: 1800px) {
 
     .banks-header p {
-        font-size: 1.4rem;
+        font-size: 1.3rem;
         white-space: normal; /* Allow line breaks */
         justify-content: center;
     }
   
     .bank-header p {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         white-space: normal; /* Allow line breaks */
         justify-content: center;
     }
@@ -1087,7 +1195,7 @@ main {
   
     .interest-details.visible {
         display: flex;
-        padding-left: 80px;
+        padding-left: 72px;
         padding-right: 5px;
         padding-top: 10px;
         padding-bottom: 18px;
@@ -1107,14 +1215,14 @@ main {
   
     .key-features.visible {
         display: flex;
-        padding-left: 80px;
+        padding-left: 72px;
         padding-right: 5px;
         padding-top: 10px;
         padding-bottom: 18px;
     }
   
     .update i {
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
 
 }
@@ -1170,7 +1278,27 @@ footer {
 }
 
 
-@media only screen and (max-width: 480px) {
+
+@media only screen and (max-width: 380px) {
+
+    #footer-content {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    #footer-content p {
+        font-size: .6rem;
+        white-space: normal; /* Allow line breaks */
+    }
+}
+
+
+@media only screen and (min-width: 381px) and (max-width: 480px) {
+
+    #footer-content {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
 
     #footer-content p {
         font-size: .7rem;
@@ -1178,7 +1306,27 @@ footer {
     }
 }
 
+
 @media only screen and (min-width: 481px) and (max-width: 500px) {
+
+    #footer-content {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    #footer-content p {
+        font-size: .8rem;
+        white-space: normal; /* Allow line breaks */
+    }
+
+}
+
+@media only screen and (min-width: 501px) and (max-width: 600px) {
+
+    #footer-content {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
 
     #footer-content p {
         font-size: .9rem;
@@ -1186,43 +1334,61 @@ footer {
     }
 }
 
-@media only screen and (min-width: 501px) and (max-width: 600px) {
+
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+
+    #footer-content {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
 
     #footer-content p {
         font-size: 1rem;
         white-space: normal; /* Allow line breaks */
     }
+
 }
 
-@media only screen and (min-width: 601px) and (max-width: 768px) {
+@media only screen and (min-width: 769px) and (max-width: 900px) {
+
+    #footer-content {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
 
     #footer-content p {
         font-size: 1.1rem;
         white-space: normal; /* Allow line breaks */
     }
-}
 
-@media only screen and (min-width: 769px) and (max-width: 900px) {
-
-    #footer-content p {
-        font-size: 1.2rem;
-        white-space: normal; /* Allow line breaks */
-    }
 }
 
 @media only screen and (min-width: 901px) and (max-width: 1024px) {
 
+    #footer-content {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
     #footer-content p {
-        font-size: 1.3rem;
+        font-size: 1.1rem;
         white-space: normal; /* Allow line breaks */
     }
+
 }
 
 
 @media only screen and (min-width: 1025px) and (max-width: 1800px) {
 
+    #footer-content {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 90%;
+    }
+
     #footer-content p {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         white-space: normal; /* Allow line breaks */
     }
 }
