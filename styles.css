@@ -199,11 +199,6 @@ main {
 
 @media only screen and (max-width: 380px) {
 
-    #home {
-        min-height: calc(100vh - 200px);
-        margin-bottom: 115px;
-    }
-
     #home h2 {
       font-size: 1.2rem;
       white-space: normal; /* Allow line breaks */
@@ -217,11 +212,6 @@ main {
 
 
 @media only screen and (min-width: 381px) and (max-width: 480px) {
-
-    #home {
-        min-height: calc(100vh - 200px);
-        margin-bottom: 115px;
-    }
 
     #home h2 {
       font-size: 1.3rem;
@@ -362,6 +352,10 @@ main {
         scroll-margin-top: 70px;
     }
 
+    #savings-wordings {
+        margin-bottom: 20px;
+    }
+
     #savings-wordings h3 {
       font-size: 1rem;
       white-space: normal; /* Allow line breaks */
@@ -379,6 +373,10 @@ main {
     #savings {
         width: 94%;
         scroll-margin-top: 70px;
+    }
+
+    #savings-wordings {
+        margin-bottom: 25px;
     }
 
     #savings-wordings h3 {
@@ -400,6 +398,10 @@ main {
         scroll-margin-top: 80px;
     }
 
+    #savings-wordings {
+        margin-bottom: 25px;
+    }
+
     #savings-wordings h3 {
       font-size: 1.3rem;
       white-space: normal; /* Allow line breaks */
@@ -417,6 +419,10 @@ main {
         width: 94%;
     }
 
+    #savings-wordings {
+        margin-bottom: 30px;
+    }
+
     #savings-wordings h3 {
       font-size: 1.4rem;
       white-space: normal; /* Allow line breaks */
@@ -432,6 +438,10 @@ main {
 
     #savings {
         width: 94%;
+    }
+
+    #savings-wordings {
+        margin-bottom: 30px;
     }
 
     #savings-wordings h3 {
