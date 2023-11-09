@@ -136,7 +136,7 @@ nav ul {
     }
     
     .list-item a {
-        font-size: 1.8rem;
+        font-size: 1.7rem;
     }
 }
 
@@ -161,7 +161,7 @@ main {
 
 #home {
     width: 94%;
-    min-height: calc(100vh - 130px);
+    min-height: calc(100vh - 110px);
     background-color: #CCEEBC;
     display: flex;
     align-items: center;
@@ -305,7 +305,7 @@ main {
 @media only screen and (min-width: 1025px) and (max-width: 1800px) {
 
     #home h2 {
-        font-size: 2.4rem;
+        font-size: 2.5rem;
         white-space: normal; /* Allow line breaks */
     }
   
@@ -1222,7 +1222,7 @@ main {
     }
   
     .update i {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
 
 }
@@ -1273,7 +1273,7 @@ footer {
     padding-right: 12px;
 }
 
-#lemoneyd-link {
+.lemoneyd-link {
     color: #e9ff74;
 }
 
