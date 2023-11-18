@@ -226,7 +226,7 @@ main {
 @media only screen and (max-width: 380px) {
 
     #home {
-        min-height: calc(100vh - 300px);
+        min-height: calc(100vh - 280px);
     }
 
     #home h2 {
@@ -244,7 +244,7 @@ main {
 @media only screen and (min-width: 381px) and (max-width: 480px) {
 
     #home {
-        min-height: calc(100vh - 300px);
+        min-height: calc(100vh - 280px);
     }
 
     #home h2 {
