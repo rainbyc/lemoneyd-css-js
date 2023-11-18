@@ -225,6 +225,10 @@ main {
 
 @media only screen and (max-width: 380px) {
 
+    #home {
+        min-height: calc(100vh - 300px);
+    }
+
     #home h2 {
       font-size: 1.3rem;
       white-space: normal; /* Allow line breaks */
@@ -238,6 +242,10 @@ main {
 
 
 @media only screen and (min-width: 381px) and (max-width: 480px) {
+
+    #home {
+        min-height: calc(100vh - 300px);
+    }
 
     #home h2 {
       font-size: 1.5rem;
