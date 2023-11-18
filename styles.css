@@ -700,7 +700,7 @@ main {
     }
 
     .banks-logo img {
-        min-width: 60%;
+        min-width: 50%;
         height: auto;
     }
 
@@ -720,7 +720,7 @@ main {
 
     .interest-details.visible {
         display: flex;
-        padding-left: 30px;
+        padding-left: 32px;
         padding-right: 5px;
         padding-top: 10px;
         padding-bottom: 15px;
@@ -749,7 +749,7 @@ main {
     }
 
     .banks-logo img {
-        min-width: 60%;
+        min-width: 50%;
         height: auto;
     }
 
@@ -769,7 +769,7 @@ main {
 
     .interest-details.visible {
         display: flex;
-        padding-left: 35px;
+        padding-left: 38px;
         padding-right: 5px;
         padding-top: 10px;
         padding-bottom: 15px;
@@ -798,7 +798,7 @@ main {
     }
 
     .banks-logo img {
-        min-width: 60%;
+        min-width: 40%;
         height: auto;
     }
 
@@ -818,7 +818,7 @@ main {
 
     .interest-details.visible {
         display: flex;
-        padding-left: 36px;
+        padding-left: 42px;
         padding-right: 5px;
         padding-top: 10px;
         padding-bottom: 15px;
@@ -847,7 +847,7 @@ main {
     }
 
     .banks-logo img {
-        min-width: 60%;
+        min-width: 40%;
         height: auto;
     }
 
@@ -867,7 +867,7 @@ main {
 
     .interest-details.visible {
         display: flex;
-        padding-left: 40px;
+        padding-left: 49px;
         padding-right: 5px;
         padding-top: 10px;
         padding-bottom: 15px;
@@ -882,7 +882,7 @@ main {
     }
 
     .update i {
-        font-size: .8rem;
+        font-size: .7rem;
         padding-right: 5px;
     }   
     
@@ -892,7 +892,7 @@ main {
 @media only screen and (min-width: 601px) and (max-width: 768px) {
 
     .banks-header p {
-      font-size: 1.1rem;
+      font-size: 1rem;
       white-space: normal; /* Allow line breaks */
     }
 
@@ -902,37 +902,37 @@ main {
     }
 
     .banks-savings {
-        font-size: 1rem;
+        font-size: .9rem;
         white-space: normal; /* Allow line breaks */
     }
 
     .banks-interest {
-        font-size: 1rem;
+        font-size: .9rem;
         white-space: normal; /* Allow line breaks */
     }
 
     .expand-button {
-        font-size: 1rem;
+        font-size: .9rem;
     }
 
     .interest-details.visible {
         display: flex;
-        padding-left: 48px;
+        padding-left: 57px;
         padding-right: 5px;
         padding-top: 10px;
         padding-bottom: 15px;
     }
 
     .details-header {
-        font-size: 1rem;
+        font-size: .9rem;
     }
 
     .interest-details ul li {
-        font-size: 1rem;
+        font-size: .9rem;
     }
 
     .update i {
-        font-size: .9rem;
+        font-size: .7rem;
         padding-right: 5px;
     }   
     
@@ -943,12 +943,12 @@ main {
 @media only screen and (min-width: 769px) and (max-width: 900px) {
 
     .banks-header p {
-      font-size: 1.2rem;
+      font-size: 1.1rem;
       white-space: normal; /* Allow line breaks */
     }
 
     .banks-logo img {
-        min-width: 40%;
+        min-width: 30%;
         height: auto;
     }
 
@@ -968,7 +968,7 @@ main {
 
     .interest-details.visible {
         display: flex;
-        padding-left: 65px;
+        padding-left: 70px;
         padding-right: 5px;
         padding-top: 10px;
         padding-bottom: 15px;
@@ -1017,7 +1017,7 @@ main {
 
     .interest-details.visible {
         display: flex;
-        padding-left: 74px;
+        padding-left: 76px;
         padding-right: 5px;
         padding-top: 10px;
         padding-bottom: 15px;
@@ -1067,7 +1067,7 @@ main {
 
     .interest-details.visible {
         display: flex;
-        padding-left: 92px;
+        padding-left: 98px;
         padding-right: 5px;
         padding-top: 10px;
         padding-bottom: 15px;
@@ -1139,7 +1139,7 @@ footer {
     }
 
     #footer-content p {
-        font-size: .7rem;
+        font-size: .6rem;
         white-space: normal; /* Allow line breaks */
     }
 }
@@ -1181,7 +1181,7 @@ footer {
     }
 
     #footer-content p {
-        font-size: .9rem;
+        font-size: .8rem;
         white-space: normal; /* Allow line breaks */
     }
 }
@@ -1196,7 +1196,7 @@ footer {
     }
 
     #footer-content p {
-        font-size: 1rem;
+        font-size: .9rem;
         white-space: normal; /* Allow line breaks */
     }
 
@@ -1210,7 +1210,7 @@ footer {
     }
 
     #footer-content p {
-        font-size: 1.1rem;
+        font-size: 1rem;
         white-space: normal; /* Allow line breaks */
     }
 
@@ -1240,7 +1240,7 @@ footer {
     }
 
     #footer-content p {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         white-space: normal; /* Allow line breaks */
     }
 }
