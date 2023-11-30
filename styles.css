@@ -23,7 +23,7 @@ header {
 }
 
 nav {
-    width: 93%;
+    width: 90%;
     height: auto;
     display: flex;
     justify-content: space-between;
@@ -42,10 +42,15 @@ nav h1 a {
 
 nav ul {
     display: flex;
-    width: 44%;
+    width: 50%;
     list-style: none;
-    justify-content: flex-end;
     border: 1px solid gray;
+}
+
+.list-item {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
 }
 
 .list-item a {
@@ -57,13 +62,16 @@ nav ul {
 
 
 @media only screen and (max-width: 380px) {
+    nav {
+        width: 94%;
+    }
+
     nav h1 a {
         font-size: 1.2rem;
     }
-    
+
     .list-item a {
         font-size: 1rem;
-        margin-right: 20px;
     }
 }
 
