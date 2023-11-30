@@ -23,13 +23,14 @@ header {
 }
 
 nav {
-    width: 94%;
+    width: 93%;
     height: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding-top: 10px;
     padding-bottom: 10px;
+    border: 1px solid white;
 }
 
 nav h1 a {
@@ -41,10 +42,10 @@ nav h1 a {
 
 nav ul {
     display: flex;
-    width: 50%;
+    width: 44%;
     list-style: none;
-    justify-content: center;
-    padding-left: 15%;
+    justify-content: flex-end;
+    border: 1px solid gray;
 }
 
 .list-item a {
@@ -52,8 +53,6 @@ nav ul {
     font-size: 1.5rem;
     color: white;
     font-family: 'Kanit', sans-serif;
-    border: 2px solid #e9ff74;
-    border-radius: 25px;
 }
 
 
@@ -63,10 +62,8 @@ nav ul {
     }
     
     .list-item a {
-        font-size: .9rem;
-        padding-left: 13px;
-        padding-right: 10px;
-        padding-bottom: 1px;
+        font-size: 1rem;
+        margin-right: 20px;
     }
 }
 
