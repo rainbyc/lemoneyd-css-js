@@ -43,7 +43,7 @@ nav ul {
     display: flex;
     width: 50%;
     list-style: none;
-    background-color: #1f1f1f;
+    background-color: #242424;
     border-radius: 25px;
 }
 
@@ -90,7 +90,7 @@ nav ul {
     }
 
     nav ul {
-        width: 40%;
+        width: 42%;
     }
 
     nav h1 a {
@@ -1199,7 +1199,7 @@ footer {
 }
 
 #footer-content {
-    background-color: #131313;
+    background-color: #161616;
     border-radius: 30px;
     width: 94%;
     height: auto;
