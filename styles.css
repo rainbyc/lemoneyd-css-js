@@ -678,7 +678,7 @@ main {
 }
 
 #banks-list > div {
-    border-bottom: 1px solid #202122;
+    border-bottom: 1px solid black;
 
 }
 
@@ -1199,7 +1199,7 @@ footer {
 }
 
 #footer-content {
-    background-color: #181818;
+    background-color: #1d1d1d;
     border-radius: 30px;
     width: 94%;
     height: auto;
