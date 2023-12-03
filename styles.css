@@ -43,7 +43,7 @@ nav ul {
     display: flex;
     width: 50%;
     list-style: none;
-    background-color: #242424;
+    background-color: #292929;
     border-radius: 25px;
 }
 
@@ -1199,7 +1199,7 @@ footer {
 }
 
 #footer-content {
-    background-color: #161616;
+    background-color: #181818;
     border-radius: 30px;
     width: 94%;
     height: auto;
