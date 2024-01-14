@@ -1222,8 +1222,9 @@ footer {
     padding-right: 12px;
 }
 
-.lemoneyd-link {
+.lemoneyd-fb {
     color: #e9ff74;
+    text-decoration: none;
 }
 
 
