@@ -275,11 +275,13 @@ main {
     #lemoneyd h2 {
       font-size: 1rem;
       margin-bottom: 1rem;
+      padding-top: 30px;
       white-space: normal; /* Allow line breaks */
     }
 
     #lemoneyd p {
         font-size: .9rem;
+        padding-bottom: 30px;
         white-space: normal; /* Allow line breaks */
     }
 }
@@ -294,11 +296,13 @@ main {
     #lemoneyd h2 {
       font-size: 1.1rem;
       margin-bottom: 1rem;
+      padding-top: 30px;
       white-space: normal; /* Allow line breaks */
     }
 
     #lemoneyd p {
         font-size: 1rem;
+        padding-bottom: 30px;
         white-space: normal; /* Allow line breaks */
     }
 }
