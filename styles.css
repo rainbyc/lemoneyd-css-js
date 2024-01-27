@@ -269,7 +269,7 @@ main {
 @media only screen and (max-width: 380px) {
 
     #lemoneyd {
-        min-height: calc(100vh - 480px);
+        min-height: calc(100vh - 520px);
     }
 
     #lemoneyd h2 {
@@ -290,7 +290,7 @@ main {
 @media only screen and (min-width: 381px) and (max-width: 480px) {
 
     #lemoneyd {
-        min-height: calc(100vh - 480px);
+        min-height: calc(100vh - 520px);
     }
 
     #lemoneyd h2 {
