@@ -231,7 +231,7 @@ main {
 #lemoneyd {
     width: 94%;
     min-height: calc(100vh - 380px);
-    background-color:#CEFC86;
+    background-color: #CCEEBC;
     color: black;
     display: flex;
     align-items: center;
@@ -269,7 +269,7 @@ main {
 @media only screen and (max-width: 380px) {
 
     #lemoneyd {
-        min-height: calc(100vh - 530px);
+        min-height: calc(100vh - 540px);
     }
 
     #lemoneyd h2 {
@@ -290,7 +290,7 @@ main {
 @media only screen and (min-width: 381px) and (max-width: 480px) {
 
     #lemoneyd {
-        min-height: calc(100vh - 530px);
+        min-height: calc(100vh - 540px);
     }
 
     #lemoneyd h2 {
