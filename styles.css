@@ -280,7 +280,7 @@ main {
     }
 
     #lemoneyd p {
-        font-size: .9rem;
+        font-size: .8rem;
         padding-bottom: 30px;
         white-space: normal; /* Allow line breaks */
     }
@@ -301,7 +301,7 @@ main {
     }
 
     #lemoneyd p {
-        font-size: 1rem;
+        font-size: .9rem;
         padding-bottom: 30px;
         white-space: normal; /* Allow line breaks */
     }
